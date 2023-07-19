@@ -1,4 +1,3 @@
-import { BASE_URL } from "@/consts";
 import axios from "axios";
 
 const axiosInstance = axios.create({
