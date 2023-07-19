@@ -32,6 +32,7 @@ public class AuthController {
         AuthInfo autoInfo = authService.login(loginRequest);
         HttpSession session = request.getSession();
         session.setAttribute("memberId", autoInfo);
+        System.out.println("로그인 성공");
         return new ResponseEntity<>(autoInfo, HttpStatus.ACCEPTED);
     }
 
