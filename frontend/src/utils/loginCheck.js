@@ -3,7 +3,7 @@ import axios from "axios";
 
 const loginCheck = async () => {
   const { data } = await axios({
-    url: `${BASE_URL}/auth/login_check`,
+    url: `http://54.180.26.199/auth/login_check`,
     method: "get",
   });
   return data.code;
