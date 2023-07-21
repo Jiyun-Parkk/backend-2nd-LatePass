@@ -5,7 +5,7 @@ import MyPage from "@/views/MyPage.vue";
 import Admin from "@/views/Admin.vue";
 import QuizList from "@/views/QuizList.vue";
 import Quiz from "@/views/Quiz.vue";
-// import CreateAndEditQuiz from "@/views/createAndEditQuiz.vue";
+import CreateAndEditQuiz from "@/views/CreateAndEditQuiz.vue";
 
 const routes = [
   {
@@ -43,11 +43,11 @@ const routes = [
         name: "quiz",
         component: Quiz,
       },
-      // {
-      //   path: "/createAndEditQuiz",
-      //   name: "createAndEditQuiz",
-      //   component: CreateAndEditQuiz,
-      // },
+      {
+        path: "/createAndEditQuiz",
+        name: "createAndEditQuiz",
+        component: CreateAndEditQuiz,
+      },
     ],
   },
 ];
