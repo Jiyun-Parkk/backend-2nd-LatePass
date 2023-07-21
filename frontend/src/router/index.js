@@ -1,11 +1,11 @@
 // Composables
 import { createRouter, createWebHistory } from "vue-router";
-import Login from "@/views/Login";
-import MyPage from "@/views/MyPage";
-import Admin from "@/views/Admin";
-import QuizList from "@/views/QuizList";
-import Quiz from "@/views/Quiz";
-import CreateAndEditQuiz from "@/views/createAndEditQuiz";
+import Login from "@/views/Login.vue";
+import MyPage from "@/views/MyPage.vue";
+import Admin from "@/views/Admin.vue";
+import QuizList from "@/views/QuizList.vue";
+import Quiz from "@/views/Quiz.vue";
+import CreateAndEditQuiz from "@/views/createAndEditQuiz.vue";
 
 const routes = [
   {
